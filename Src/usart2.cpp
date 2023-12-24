@@ -1,7 +1,6 @@
 
 
 #include "usart2.hpp"
-#include "stm32f410rx.h"
 
 constexpr uint32_t baud = 115200;
 
@@ -78,7 +77,7 @@ void usart2Send(uint8_t* data, uint16_t len) {
 
     while(!(USART2->SR & USART_SR_TC));
 
-    USART2->CR1 &= USART_CR1_TE; // I think stmHAL keeps TE 1 at all times tbh
+    USART2->CR1 &= ~USART_CR1_TE; // I think stmHAL keeps TE 1 at all times tbh
 
 }
 

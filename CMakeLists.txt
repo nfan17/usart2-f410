@@ -26,10 +26,6 @@ set(CUBEMX_GENERATED_FILES
     Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
     Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
-    Inc/main.h
-    Inc/stm32f4xx_hal_conf.h
-    Inc/stm32f4xx_it.h
-
     Src/main.c
     Src/stm32f4xx_hal_msp.c
     Src/stm32f4xx_it.c
@@ -87,4 +83,5 @@ add_custom_command(TARGET ${EXECUTABLE}
     POST_BUILD
     COMMAND arm-none-eabi-objcopy -O ihex ${EXECUTABLE} ${PROJECT_NAME}.hex
     COMMAND arm-none-eabi-objcopy -O binary ${EXECUTABLE} ${PROJECT_NAME}.bin
+    COMMAND arm-none-eabi-objcopy -O srec ${EXECUTABLE} ${PROJECT_NAME}.elf
 )

@@ -90,7 +90,7 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
   usart2Init();
-  uint8_t data[] = "Hello!\n";
+  uint8_t data[] = "Hello~!\n";
 
   /* USER CODE END 2 */
 
@@ -210,24 +210,6 @@ void Error_Handler(void)
   /* USER CODE END Error_Handler_Debug */
 }
 
-/**
-  * @brief This function handles System tick timer.
-  */
-void SysTick_Handler(void)
-{
-  /* USER CODE BEGIN SysTick_IRQn 0 */
-
-  /* USER CODE END SysTick_IRQn 0 */
-  HAL_IncTick();
-  /* USER CODE BEGIN SysTick_IRQn 1 */
-  static int count = 0;
-  if (count++ >= 2000) {
-    count = 0;
-    ledFlag = 1;
-  }
-
-  /* USER CODE END SysTick_IRQn 1 */
-}
 
 #ifdef  USE_FULL_ASSERT
 /**

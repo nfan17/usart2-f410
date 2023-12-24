@@ -33,5 +33,4 @@ CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.obj: \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f410rx.h
+ C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h
