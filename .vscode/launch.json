@@ -5,13 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Cortex Debug",
+            "name": "STLink Debug",
             "cwd": "${workspaceFolder}",
-            "executable": "./cmake-build-debug/BSP_F410.elf",
+            "executable": "${workspaceFolder}/cmake-build-debug/BSP_F410.elf",
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
-            "servertype": "stlink"
+            "servertype": "stutil",
+            "device": "STM32F410RB",
+            "interface": "swd",
+            "svdFile": "C:/Users/nicol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/CMSIS/SVD/STM32F410.svd",
+            "swoConfig": {
+                "enabled": false,
+            }
         }
     ]
 }
