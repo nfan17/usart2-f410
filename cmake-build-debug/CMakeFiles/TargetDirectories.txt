@@ -1,0 +1,3 @@
+C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/cmake-build-debug/CMakeFiles/BSP_F410.out.dir
+C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/cmake-build-debug/CMakeFiles/rebuild_cache.dir
