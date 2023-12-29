@@ -96,24 +96,10 @@ CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
-CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
-CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
-
-CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
-
-CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
-
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -127,7 +113,7 @@ CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -141,7 +127,7 @@ CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -155,7 +141,7 @@ CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -169,7 +155,7 @@ CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_corte
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -183,7 +169,7 @@ CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -197,7 +183,7 @@ CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Src/main.c
 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BSP_F410.out.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BSP_F410.out.dir/Src/main.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Src/main.c.obj -MF CMakeFiles\BSP_F410.out.dir\Src\main.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Src\main.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Src\main.c
 
 CMakeFiles/BSP_F410.out.dir/Src/main.c.i: cmake_force
@@ -211,7 +197,7 @@ CMakeFiles/BSP_F410.out.dir/Src/main.c.s: cmake_force
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Src/stm32f4xx_hal_msp.c
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\BSP_F410.out.dir\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -225,7 +211,7 @@ CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Src/stm32f4xx_it.c
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj -MF CMakeFiles\BSP_F410.out.dir\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Src\stm32f4xx_it.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Src\stm32f4xx_it.c
 
 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.i: cmake_force
@@ -239,7 +225,7 @@ CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/Src/system_stm32f4xx.c
 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/BSP_F410.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj -MF CMakeFiles\BSP_F410.out.dir\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\BSP_F410.out.dir\Src\system_stm32f4xx.c.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Src\system_stm32f4xx.c
 
 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.i: cmake_force
@@ -252,7 +238,7 @@ CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj: CMakeFiles/BSP_F410.out.dir/flags.make
 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj: C:/Users/nicol/programs/Cprograms/baremetaltut/BSP_F410/startup_stm32f410rx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BSP_F410.out.dir\startup_stm32f410rx.s.obj -c C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\startup_stm32f410rx.s
 
 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.i: cmake_force
@@ -267,7 +253,6 @@ CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.s: cmake_force
 BSP_F410_out_OBJECTS = \
 "CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.obj" \
 "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
-"CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
 "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
 "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" \
 "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" \
@@ -285,7 +270,6 @@ BSP_F410_out_EXTERNAL_OBJECTS =
 
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.obj
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-BSP_F410.out: CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -299,7 +283,7 @@ BSP_F410.out: CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/build.make
 BSP_F410.out: CMakeFiles/BSP_F410.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable BSP_F410.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable BSP_F410.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BSP_F410.out.dir\link.txt --verbose=$(VERBOSE)
 	arm-none-eabi-objcopy -O ihex BSP_F410.out BSP_F410.hex
 	arm-none-eabi-objcopy -O binary BSP_F410.out BSP_F410.bin

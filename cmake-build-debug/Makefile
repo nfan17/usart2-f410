@@ -296,30 +296,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj
-
-# target to build an object file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i
-
-# target to preprocess a source file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s
-
-# target to generate assembly for a file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
-
 Src/main.obj: Src/main.c.obj
 .PHONY : Src/main.obj
 
@@ -478,9 +454,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s

@@ -16,8 +16,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj.d"
   "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
   "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj.d"
-  "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-  "CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d"
   "CMakeFiles/BSP_F410.out.dir/Src/main.c.obj"
   "CMakeFiles/BSP_F410.out.dir/Src/main.c.obj.d"
   "CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj"
