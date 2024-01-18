@@ -23,8 +23,9 @@
 /* USER CODE BEGIN Includes */
 // #define STM32F410Rx
 #include <stdint.h>
+#include <string.h>
 #include "stm32f4xx.h"
-#include "usart2.hpp"
+#include "usart1.hpp"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -89,9 +90,16 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  usart2Init();
-  uint8_t data[] = "Hello~!\n";
 
+  typedef enum { ON, OFF, BLINK } led_state;
+  usartInit();
+  uint8_t data[] = "Hello\n";
+  uint8_t rxd[256];
+  size_t rx_size = 256;
+  size_t max_tries = 10000000;
+  uint8_t active = 0;
+  led_state state = OFF;
+  
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,10 +109,49 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
+    // this works bc only communicating w single bytes, implement interrupts later
+    usartReadString(rxd, '\n', rx_size, 1); 
+
+    char* in = (char*)rxd;
+    if (strcmp(in, "a") == 0) {
+      active = 1;
+      usartSendString("a");
+    }
+    else if (strcmp(in, "d") == 0) {
+      active = 0;
+      usartSendString("d");
+    }
+    else if (strcmp(in, "h") == 0) {
+      state = ON;
+      usartSendString("h");
+    }
+    else if (strcmp(in, "l") == 0) {
+      state = OFF;
+      usartSendString("l");
+    }
+    else if (strcmp(in, "b") == 0) {
+      state = BLINK;
+      usartSendString("b");
+    }
+    else if (strcmp(in, "g") == 0) {
+      usartSendString("Hello!\n");
+    }
+    
     if (ledFlag) {
-      GPIOA->ODR ^= LD2_Pin;
+
+      if (active) {
+        if (state == BLINK)
+          GPIOA->ODR ^= LD2_Pin;
+        else if (state == ON)
+          GPIOA->ODR |= LD2_Pin;
+        else if (state == OFF)
+          GPIOA->ODR &= ~LD2_Pin;
+      }
+      else {
+        GPIOA->ODR &= ~LD2_Pin;
+      }
       ledFlag = 0;
-      usart2Send(data, sizeof(data) - 1);
     }
 
   }

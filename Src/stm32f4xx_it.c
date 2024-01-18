@@ -189,7 +189,7 @@ void SysTick_Handler(void)
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
   static int count = 0;
-  if (count++ >= 2000) {
+  if (count++ >= 500) {
     count = 0;
     ledFlag = 1;
   }

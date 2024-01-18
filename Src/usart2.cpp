@@ -61,7 +61,8 @@ void usart2Init(void) {
     USART2->BRR |= calculateUartDiv(pclk, baud, osr);
 
     USART2->CR3 |= USART_CR3_EIE;
-    USART2->CR1 |= USART_CR1_UE;
+    USART2->CR1 |= USART_CR1_UE | USART_CR1_TE | USART_CR1_RE;
+
 }
 
 void usart2Send(uint8_t* data, uint16_t len) {
@@ -71,13 +72,49 @@ void usart2Send(uint8_t* data, uint16_t len) {
     for (uint16_t i = 0; i < len; ++i) {
         
         while (!(USART2->SR & USART_SR_TXE));
-        USART2->DR |= static_cast<uint8_t>(data[i]);
+        USART2->DR = static_cast<uint8_t>(data[i]);
 
     }
 
     while(!(USART2->SR & USART_SR_TC));
 
-    USART2->CR1 &= ~USART_CR1_TE; // I think stmHAL keeps TE 1 at all times tbh
+    // USART2->CR1 &= ~USART_CR1_TE; // I think stmHAL keeps TE 1 at all times tbh
+
+}
+
+void usart2ReadString(uint8_t * data, uint8_t end_char, uint16_t max_size, uint32_t max_tries) {
+    USART2->CR1 |= USART_CR1_RE;
+
+    uint16_t i, j = 0;
+    while (i < max_size && j++ < max_tries) {
+        if (USART2->SR & USART_SR_RXNE) {
+            j = 0;
+            data[i] = USART2->DR;
+            if (data[i] == end_char) {
+                data[i] = '\0';
+                break;
+            }
+            i++;
+        }
+    }
+}
+
+void usart2SendString(char *data) {
+    
+    USART2->CR1 |= USART_CR1_TE;
+
+    int cont = 1;
+    while(cont) {
+        
+        if (*data == '\0') {
+            cont = 0;
+        }
+        while (!(USART2->SR & USART_SR_TXE));
+        USART2->DR = static_cast<uint8_t>(*(data++));
+
+    }
+
+    while(!(USART2->SR & USART_SR_TC));
 
 }
 

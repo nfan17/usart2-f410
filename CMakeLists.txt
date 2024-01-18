@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # set(MY_C_FILES )
 set(MY_CXX_FILES 
-    Src/usart2.cpp
+    Src/usart1.cpp
 )
 
 set(CUBEMX_GENERATED_FILES

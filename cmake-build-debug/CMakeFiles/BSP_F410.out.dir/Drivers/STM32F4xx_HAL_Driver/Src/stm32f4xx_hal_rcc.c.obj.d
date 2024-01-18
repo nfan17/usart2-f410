@@ -1,6 +1,9 @@
-CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.obj: \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Src\usart2.cpp \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Inc/usart2.hpp \
+CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: \
+ C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c \
+ C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
+ C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Inc/stm32f4xx_hal_conf.h \
+ C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
+ C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f410rx.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\CMSIS\Include/core_cm4.h \
@@ -16,10 +19,6 @@ CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.obj: \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\CMSIS\Include/cmsis_gcc.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\CMSIS\Include/mpu_armv7.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Inc/stm32f4xx_hal_conf.h \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
- C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
  c:\progra~2\gnuarm~1\102021~1.07\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
  C:\Users\nicol\programs\Cprograms\baremetaltut\BSP_F410\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \

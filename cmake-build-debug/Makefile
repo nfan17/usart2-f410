@@ -296,6 +296,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+
 Src/main.obj: Src/main.c.obj
 .PHONY : Src/main.obj
 
@@ -392,29 +416,29 @@ Src/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.s
 .PHONY : Src/system_stm32f4xx.c.s
 
-Src/usart2.obj: Src/usart2.cpp.obj
-.PHONY : Src/usart2.obj
+Src/usart1.obj: Src/usart1.cpp.obj
+.PHONY : Src/usart1.obj
 
 # target to build an object file
-Src/usart2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.obj
-.PHONY : Src/usart2.cpp.obj
+Src/usart1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+.PHONY : Src/usart1.cpp.obj
 
-Src/usart2.i: Src/usart2.cpp.i
-.PHONY : Src/usart2.i
+Src/usart1.i: Src/usart1.cpp.i
+.PHONY : Src/usart1.i
 
 # target to preprocess a source file
-Src/usart2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.i
-.PHONY : Src/usart2.cpp.i
+Src/usart1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.i
+.PHONY : Src/usart1.cpp.i
 
-Src/usart2.s: Src/usart2.cpp.s
-.PHONY : Src/usart2.s
+Src/usart1.s: Src/usart1.cpp.s
+.PHONY : Src/usart1.s
 
 # target to generate assembly for a file
-Src/usart2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Src/usart2.cpp.s
-.PHONY : Src/usart2.cpp.s
+Src/usart1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BSP_F410.out.dir\build.make CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.s
+.PHONY : Src/usart1.cpp.s
 
 startup_stm32f410rx.obj: startup_stm32f410rx.s.obj
 .PHONY : startup_stm32f410rx.obj
@@ -454,6 +478,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s
@@ -466,9 +493,9 @@ help:
 	@echo ... Src/system_stm32f4xx.obj
 	@echo ... Src/system_stm32f4xx.i
 	@echo ... Src/system_stm32f4xx.s
-	@echo ... Src/usart2.obj
-	@echo ... Src/usart2.i
-	@echo ... Src/usart2.s
+	@echo ... Src/usart1.obj
+	@echo ... Src/usart1.i
+	@echo ... Src/usart1.s
 	@echo ... startup_stm32f410rx.obj
 .PHONY : help
 
