@@ -11,7 +11,7 @@ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../..
 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-strcmp.o)
                               CMakeFiles/BSP_F410.out.dir/Src/main.c.obj (strcmp)
 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
-                              CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj (__aeabi_uldivmod)
+                              CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj (__aeabi_uldivmod)
 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
                               c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
@@ -34,12 +34,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .text.calculateUartDiv
-                0x00000000       0x74 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .ARM.extab.text.calculateUartDiv
-                0x00000000        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .ARM.exidx.text.calculateUartDiv
-                0x00000000        0x8 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
  .ARM.extab.text.usartInit
                 0x00000000        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
  .text.usartSend
@@ -467,7 +461,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x08000000                g_pfnVectors
                 0x080001c8                . = ALIGN (0x4)
 
-.text           0x080001c8     0x119c
+.text           0x080001c8     0x11a4
                 0x080001c8                . = ALIGN (0x4)
  *(.text)
  .text          0x080001c8       0x40 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -485,234 +479,234 @@ LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x08000520       0x9c CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
                 0x08000520                usartInit
  .text.usartReadString
-                0x080005bc       0x50 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+                0x080005bc       0x58 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
                 0x080005bc                usartReadString
  .text.usartSendString
-                0x0800060c       0x3c CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
-                0x0800060c                usartSendString
+                0x08000614       0x3c CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+                0x08000614                usartSendString
  .text.HAL_InitTick
-                0x08000648       0x4c CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08000648                HAL_InitTick
+                0x08000650       0x4c CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08000650                HAL_InitTick
  .text.HAL_Init
-                0x08000694       0x34 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08000694                HAL_Init
+                0x0800069c       0x34 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800069c                HAL_Init
  .text.HAL_IncTick
-                0x080006c8       0x18 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080006c8                HAL_IncTick
+                0x080006d0       0x18 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080006d0                HAL_IncTick
  .text.HAL_GetTick
-                0x080006e0        0xc CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080006e0                HAL_GetTick
+                0x080006e8        0xc CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080006e8                HAL_GetTick
  .text.HAL_RCC_OscConfig
-                0x080006ec      0x408 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080006ec                HAL_RCC_OscConfig
+                0x080006f4      0x408 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080006f4                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08000af4       0xd4 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000af4                HAL_RCC_GetSysClockFreq
+                0x08000afc       0xd4 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08000afc                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08000bc8      0x160 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000bc8                HAL_RCC_ClockConfig
+                0x08000bd0      0x160 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08000bd0                HAL_RCC_ClockConfig
  .text.HAL_GPIO_Init
-                0x08000d28      0x1a8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08000d28                HAL_GPIO_Init
+                0x08000d30      0x1a8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08000d30                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08000ed0        0xc CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08000ed0                HAL_GPIO_WritePin
+                0x08000ed8        0xc CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08000ed8                HAL_GPIO_WritePin
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000edc       0x24 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08000edc                HAL_NVIC_SetPriorityGrouping
+                0x08000ee4       0x24 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000ee4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000f00       0x70 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08000f00                HAL_NVIC_SetPriority
+                0x08000f08       0x70 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000f08                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x08000f70       0x28 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08000f70                HAL_SYSTICK_Config
+                0x08000f78       0x28 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000f78                HAL_SYSTICK_Config
  .text.MX_GPIO_Init
-                0x08000f98       0xa8 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+                0x08000fa0       0xa8 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
  .text.Error_Handler
-                0x08001040        0x4 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
-                0x08001040                Error_Handler
+                0x08001048        0x4 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+                0x08001048                Error_Handler
  .text.SystemClock_Config
-                0x08001044       0xa0 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
-                0x08001044                SystemClock_Config
- .text.main     0x080010e4      0x12c CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
-                0x080010e4                main
+                0x0800104c       0xa0 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+                0x0800104c                SystemClock_Config
+ .text.main     0x080010ec      0x12c CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+                0x080010ec                main
  .text.HAL_MspInit
-                0x08001210       0x40 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
-                0x08001210                HAL_MspInit
+                0x08001218       0x40 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x08001218                HAL_MspInit
  .text.NMI_Handler
-                0x08001250        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x08001250                NMI_Handler
- .text.HardFault_Handler
-                0x08001252        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x08001252                HardFault_Handler
- .text.MemManage_Handler
-                0x08001254        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x08001254                MemManage_Handler
- .text.BusFault_Handler
-                0x08001256        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x08001256                BusFault_Handler
- .text.UsageFault_Handler
                 0x08001258        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x08001258                UsageFault_Handler
- .text.SVC_Handler
+                0x08001258                NMI_Handler
+ .text.HardFault_Handler
                 0x0800125a        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x0800125a                SVC_Handler
- .text.DebugMon_Handler
+                0x0800125a                HardFault_Handler
+ .text.MemManage_Handler
                 0x0800125c        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x0800125c                DebugMon_Handler
- .text.PendSV_Handler
+                0x0800125c                MemManage_Handler
+ .text.BusFault_Handler
                 0x0800125e        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x0800125e                PendSV_Handler
+                0x0800125e                BusFault_Handler
+ .text.UsageFault_Handler
+                0x08001260        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+                0x08001260                UsageFault_Handler
+ .text.SVC_Handler
+                0x08001262        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+                0x08001262                SVC_Handler
+ .text.DebugMon_Handler
+                0x08001264        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+                0x08001264                DebugMon_Handler
+ .text.PendSV_Handler
+                0x08001266        0x2 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+                0x08001266                PendSV_Handler
  .text.SysTick_Handler
-                0x08001260       0x2c CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
-                0x08001260                SysTick_Handler
+                0x08001268       0x2c CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+                0x08001268                SysTick_Handler
  .text.SystemInit
-                0x0800128c       0x14 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
-                0x0800128c                SystemInit
+                0x08001294       0x14 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+                0x08001294                SystemInit
  .text.Reset_Handler
-                0x080012a0       0x50 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
-                0x080012a0                Reset_Handler
+                0x080012a8       0x50 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+                0x080012a8                Reset_Handler
  .text.Default_Handler
-                0x080012f0        0x2 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
-                0x080012f0                RTC_Alarm_IRQHandler
-                0x080012f0                EXTI2_IRQHandler
-                0x080012f0                FMPI2C1_EV_IRQHandler
-                0x080012f0                TIM1_CC_IRQHandler
-                0x080012f0                DMA2_Stream5_IRQHandler
-                0x080012f0                DMA1_Stream5_IRQHandler
-                0x080012f0                PVD_IRQHandler
-                0x080012f0                TAMP_STAMP_IRQHandler
-                0x080012f0                EXTI3_IRQHandler
-                0x080012f0                EXTI0_IRQHandler
-                0x080012f0                I2C2_EV_IRQHandler
-                0x080012f0                DMA1_Stream2_IRQHandler
-                0x080012f0                FPU_IRQHandler
-                0x080012f0                DMA2_Stream2_IRQHandler
-                0x080012f0                SPI1_IRQHandler
-                0x080012f0                TIM6_DAC_IRQHandler
-                0x080012f0                TIM1_BRK_TIM9_IRQHandler
-                0x080012f0                DMA2_Stream3_IRQHandler
-                0x080012f0                USART6_IRQHandler
-                0x080012f0                DMA2_Stream0_IRQHandler
-                0x080012f0                I2C1_EV_IRQHandler
-                0x080012f0                DMA1_Stream6_IRQHandler
-                0x080012f0                DMA1_Stream1_IRQHandler
-                0x080012f0                RCC_IRQHandler
-                0x080012f0                Default_Handler
-                0x080012f0                EXTI15_10_IRQHandler
-                0x080012f0                ADC_IRQHandler
-                0x080012f0                DMA1_Stream7_IRQHandler
-                0x080012f0                SPI5_IRQHandler
-                0x080012f0                TIM5_IRQHandler
-                0x080012f0                DMA2_Stream7_IRQHandler
-                0x080012f0                EXTI9_5_IRQHandler
-                0x080012f0                RTC_WKUP_IRQHandler
-                0x080012f0                SPI2_IRQHandler
-                0x080012f0                DMA1_Stream0_IRQHandler
-                0x080012f0                FMPI2C1_ER_IRQHandler
-                0x080012f0                EXTI4_IRQHandler
-                0x080012f0                RNG_IRQHandler
-                0x080012f0                TIM1_UP_IRQHandler
-                0x080012f0                WWDG_IRQHandler
-                0x080012f0                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080012f0                EXTI1_IRQHandler
-                0x080012f0                USART2_IRQHandler
-                0x080012f0                I2C2_ER_IRQHandler
-                0x080012f0                DMA2_Stream1_IRQHandler
-                0x080012f0                FLASH_IRQHandler
-                0x080012f0                DMA2_Stream4_IRQHandler
-                0x080012f0                USART1_IRQHandler
-                0x080012f0                DMA1_Stream4_IRQHandler
-                0x080012f0                I2C1_ER_IRQHandler
-                0x080012f0                LPTIM1_IRQHandler
-                0x080012f0                DMA2_Stream6_IRQHandler
-                0x080012f0                DMA1_Stream3_IRQHandler
- *fill*         0x080012f2        0x2 
+                0x080012f8        0x2 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+                0x080012f8                RTC_Alarm_IRQHandler
+                0x080012f8                EXTI2_IRQHandler
+                0x080012f8                FMPI2C1_EV_IRQHandler
+                0x080012f8                TIM1_CC_IRQHandler
+                0x080012f8                DMA2_Stream5_IRQHandler
+                0x080012f8                DMA1_Stream5_IRQHandler
+                0x080012f8                PVD_IRQHandler
+                0x080012f8                TAMP_STAMP_IRQHandler
+                0x080012f8                EXTI3_IRQHandler
+                0x080012f8                EXTI0_IRQHandler
+                0x080012f8                I2C2_EV_IRQHandler
+                0x080012f8                DMA1_Stream2_IRQHandler
+                0x080012f8                FPU_IRQHandler
+                0x080012f8                DMA2_Stream2_IRQHandler
+                0x080012f8                SPI1_IRQHandler
+                0x080012f8                TIM6_DAC_IRQHandler
+                0x080012f8                TIM1_BRK_TIM9_IRQHandler
+                0x080012f8                DMA2_Stream3_IRQHandler
+                0x080012f8                USART6_IRQHandler
+                0x080012f8                DMA2_Stream0_IRQHandler
+                0x080012f8                I2C1_EV_IRQHandler
+                0x080012f8                DMA1_Stream6_IRQHandler
+                0x080012f8                DMA1_Stream1_IRQHandler
+                0x080012f8                RCC_IRQHandler
+                0x080012f8                Default_Handler
+                0x080012f8                EXTI15_10_IRQHandler
+                0x080012f8                ADC_IRQHandler
+                0x080012f8                DMA1_Stream7_IRQHandler
+                0x080012f8                SPI5_IRQHandler
+                0x080012f8                TIM5_IRQHandler
+                0x080012f8                DMA2_Stream7_IRQHandler
+                0x080012f8                EXTI9_5_IRQHandler
+                0x080012f8                RTC_WKUP_IRQHandler
+                0x080012f8                SPI2_IRQHandler
+                0x080012f8                DMA1_Stream0_IRQHandler
+                0x080012f8                FMPI2C1_ER_IRQHandler
+                0x080012f8                EXTI4_IRQHandler
+                0x080012f8                RNG_IRQHandler
+                0x080012f8                TIM1_UP_IRQHandler
+                0x080012f8                WWDG_IRQHandler
+                0x080012f8                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080012f8                EXTI1_IRQHandler
+                0x080012f8                USART2_IRQHandler
+                0x080012f8                I2C2_ER_IRQHandler
+                0x080012f8                DMA2_Stream1_IRQHandler
+                0x080012f8                FLASH_IRQHandler
+                0x080012f8                DMA2_Stream4_IRQHandler
+                0x080012f8                USART1_IRQHandler
+                0x080012f8                DMA1_Stream4_IRQHandler
+                0x080012f8                I2C1_ER_IRQHandler
+                0x080012f8                LPTIM1_IRQHandler
+                0x080012f8                DMA2_Stream6_IRQHandler
+                0x080012f8                DMA1_Stream3_IRQHandler
+ *fill*         0x080012fa        0x2 
  .text.__libc_init_array
-                0x080012f4       0x48 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
-                0x080012f4                __libc_init_array
- .text.memset   0x0800133c       0x10 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
-                0x0800133c                memset
+                0x080012fc       0x48 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x080012fc                __libc_init_array
+ .text.memset   0x08001344       0x10 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x08001344                memset
  *(.glue_7)
- .glue_7        0x0800134c        0x0 linker stubs
+ .glue_7        0x08001354        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800134c        0x0 linker stubs
+ .glue_7t       0x08001354        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800134c        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08001354        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0800134c        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800134c                _init
- .init          0x08001350        0x8 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08001354        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08001354                _init
+ .init          0x08001358        0x8 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08001358        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08001358                _fini
- .fini          0x0800135c        0x8 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08001364                . = ALIGN (0x4)
-                0x08001364                _etext = .
+ .fini          0x08001360        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08001360                _fini
+ .fini          0x08001364        0x8 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0800136c                . = ALIGN (0x4)
+                0x0800136c                _etext = .
 
-.vfp11_veneer   0x08001364        0x0
- .vfp11_veneer  0x08001364        0x0 linker stubs
+.vfp11_veneer   0x0800136c        0x0
+ .vfp11_veneer  0x0800136c        0x0 linker stubs
 
-.v4_bx          0x08001364        0x0
- .v4_bx         0x08001364        0x0 linker stubs
+.v4_bx          0x0800136c        0x0
+ .v4_bx         0x0800136c        0x0 linker stubs
 
-.iplt           0x08001364        0x0
- .iplt          0x08001364        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0800136c        0x0
+ .iplt          0x0800136c        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08001364       0x38
-                0x08001364                . = ALIGN (0x4)
+.rodata         0x0800136c       0x38
+                0x0800136c                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.main.str1.4
-                0x08001364       0x27 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
- *fill*         0x0800138b        0x1 
+                0x0800136c       0x27 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+ *fill*         0x08001393        0x1 
  .rodata.AHBPrescTable
-                0x0800138c       0x10 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
-                0x0800138c                AHBPrescTable
-                0x0800139c                . = ALIGN (0x4)
+                0x08001394       0x10 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+                0x08001394                AHBPrescTable
+                0x080013a4                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0800139c        0x8
-                0x0800139c                __exidx_start = .
+.ARM            0x080013a4        0x8
+                0x080013a4                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.usartInit
-                0x080013a4        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+                0x080013ac        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.usartReadString
-                0x080013a4        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+                0x080013ac        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
                                   0x8 (size before relaxing)
  .ARM.exidx.text.usartSendString
-                0x080013a4        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+                0x080013ac        0x0 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0800139c        0x8 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
-                0x080013a4                __exidx_end = .
+ .ARM.exidx     0x080013a4        0x8 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x080013ac                __exidx_end = .
 
-.rel.dyn        0x080013a4        0x0
- .rel.iplt      0x080013a4        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x080013ac        0x0
+ .rel.iplt      0x080013ac        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x080013a4        0x0
-                0x080013a4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080013ac        0x0
+                0x080013ac                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080013a4                PROVIDE (__preinit_array_end = .)
+                0x080013ac                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x080013a4        0x4
-                0x080013a4                PROVIDE (__init_array_start = .)
+.init_array     0x080013ac        0x4
+                0x080013ac                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080013a4        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080013a8                PROVIDE (__init_array_end = .)
+ .init_array    0x080013ac        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x080013b0                PROVIDE (__init_array_end = .)
 
-.fini_array     0x080013a8        0x4
+.fini_array     0x080013b0        0x4
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080013a8        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x080013b0        0x4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end = .)
-                0x080013ac                _sidata = LOADADDR (.data)
+                0x080013b4                _sidata = LOADADDR (.data)
 
-.data           0x20000000        0xc load address 0x080013ac
+.data           0x20000000        0xc load address 0x080013b4
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -730,11 +724,11 @@ LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x2000000c                . = ALIGN (0x4)
                 0x2000000c                _edata = .
 
-.igot.plt       0x2000000c        0x0 load address 0x080013b8
+.igot.plt       0x2000000c        0x0 load address 0x080013c0
  .igot.plt      0x2000000c        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x2000000c                . = ALIGN (0x4)
 
-.bss            0x2000000c       0x28 load address 0x080013b8
+.bss            0x2000000c       0x28 load address 0x080013c0
                 0x2000000c                _sbss = .
                 0x2000000c                __bss_start__ = _sbss
  *(.bss)
@@ -751,7 +745,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x20000034                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000034      0x604 load address 0x080013b8
+                0x20000034      0x604 load address 0x080013c0
                 0x20000038                . = ALIGN (0x8)
  *fill*         0x20000034        0x4 
                 [!provide]                PROVIDE (end = .)
@@ -814,105 +808,105 @@ LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000     0x44e3
- .debug_info    0x00000000      0x5ce CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .debug_info    0x000005ce      0x922 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x00000ef0      0xaf6 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x000019e6      0x7b0 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x00002196      0xfea CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x00003180      0xa23 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
- .debug_info    0x00003ba3      0x2ae CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x00003e51      0x152 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
- .debug_info    0x00003fa3      0x51e CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
- .debug_info    0x000044c1       0x22 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+.debug_info     0x00000000     0x4405
+ .debug_info    0x00000000      0x50b CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+ .debug_info    0x0000050b      0x922 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x00000e2d      0xaf6 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x00001923      0x7b0 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x000020d3      0xfea CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x000030bd      0xa08 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+ .debug_info    0x00003ac5      0x2ae CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x00003d73      0x152 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00003ec5      0x51e CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+ .debug_info    0x000043e3       0x22 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
 
-.debug_abbrev   0x00000000     0x10d0
- .debug_abbrev  0x00000000      0x189 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .debug_abbrev  0x00000189      0x237 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_abbrev  0x000003c0      0x28a CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_abbrev  0x0000064a      0x1ef CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_abbrev  0x00000839      0x36a CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_abbrev  0x00000ba3      0x265 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
- .debug_abbrev  0x00000e08       0xf4 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x00000efc       0xa9 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x00000fa5      0x119 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
- .debug_abbrev  0x000010be       0x12 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+.debug_abbrev   0x00000000     0x10b8
+ .debug_abbrev  0x00000000      0x182 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+ .debug_abbrev  0x00000182      0x237 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_abbrev  0x000003b9      0x28a CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00000643      0x1ef CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000832      0x36a CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000b9c      0x254 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+ .debug_abbrev  0x00000df0       0xf4 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000ee4       0xa9 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x00000f8d      0x119 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x000010a6       0x12 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
 
-.debug_loc      0x00000000     0x179b
- .debug_loc     0x00000000      0x234 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .debug_loc     0x00000234      0x141 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_loc     0x00000375      0x58c CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_loc     0x00000901      0x50f CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_loc     0x00000e10      0x744 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_loc     0x00001554       0xef CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
- .debug_loc     0x00001643      0x158 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+.debug_loc      0x00000000     0x175c
+ .debug_loc     0x00000000      0x1f5 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+ .debug_loc     0x000001f5      0x141 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_loc     0x00000336      0x58c CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_loc     0x000008c2      0x50f CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_loc     0x00000dd1      0x744 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_loc     0x00001515       0xef CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+ .debug_loc     0x00001604      0x158 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
 
-.debug_aranges  0x00000000      0x3c0
+.debug_aranges  0x00000000      0x3b8
  .debug_aranges
-                0x00000000       0x40 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+                0x00000000       0x38 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
  .debug_aranges
-                0x00000040       0xf0 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000038       0xf0 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_aranges
-                0x00000130       0x88 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x00000128       0x88 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_aranges
-                0x000001b8       0x58 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x000001b0       0x58 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000210       0xa8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000208       0xa8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_aranges
-                0x000002b8       0x38 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+                0x000002b0       0x38 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
  .debug_aranges
-                0x000002f0       0x20 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x000002e8       0x20 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
  .debug_aranges
-                0x00000310       0x60 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+                0x00000308       0x60 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
  .debug_aranges
-                0x00000370       0x28 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+                0x00000368       0x28 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
  .debug_aranges
-                0x00000398       0x28 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+                0x00000390       0x28 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
 
-.debug_ranges   0x00000000      0x3b8
- .debug_ranges  0x00000000       0x30 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .debug_ranges  0x00000030       0xe0 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_ranges  0x00000110       0x90 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_ranges  0x000001a0       0x48 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_ranges  0x000001e8       0xf8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_ranges  0x000002e0       0x40 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
- .debug_ranges  0x00000320       0x10 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_ranges  0x00000330       0x50 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
- .debug_ranges  0x00000380       0x18 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
- .debug_ranges  0x00000398       0x20 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+.debug_ranges   0x00000000      0x3b0
+ .debug_ranges  0x00000000       0x28 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+ .debug_ranges  0x00000028       0xe0 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_ranges  0x00000108       0x90 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_ranges  0x00000198       0x48 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_ranges  0x000001e0       0xf8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_ranges  0x000002d8       0x40 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+ .debug_ranges  0x00000318       0x10 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_ranges  0x00000328       0x50 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+ .debug_ranges  0x00000378       0x18 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+ .debug_ranges  0x00000390       0x20 CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
 
-.debug_line     0x00000000     0x3283
- .debug_line    0x00000000      0x3cb CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .debug_line    0x000003cb      0x62b CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x000009f6      0xba1 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00001597      0x732 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x00001cc9      0x834 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x000024fd      0x5fa CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
- .debug_line    0x00002af7      0x215 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00002d0c      0x1fa CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
- .debug_line    0x00002f06      0x2cf CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
- .debug_line    0x000031d5       0xae CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+.debug_line     0x00000000     0x31d5
+ .debug_line    0x00000000      0x370 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+ .debug_line    0x00000370      0x62b CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x0000099b      0xba1 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x0000153c      0x732 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x00001c6e      0x834 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x000024a2      0x5a7 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+ .debug_line    0x00002a49      0x215 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00002c5e      0x1fa CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00002e58      0x2cf CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00003127       0xae CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
 
-.debug_str      0x00000000     0x1875
- .debug_str     0x00000000      0x3be CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
-                                0x446 (size before relaxing)
- .debug_str     0x000003be      0x7de CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+.debug_str      0x00000000     0x1824
+ .debug_str     0x00000000      0x347 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+                                0x3c6 (size before relaxing)
+ .debug_str     0x00000347      0x7ea CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                                 0x9ec (size before relaxing)
- .debug_str     0x00000b9c      0x37a CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x00000b31      0x396 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                                 0x72b (size before relaxing)
- .debug_str     0x00000f16      0x196 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x00000ec7      0x19b CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                                 0x506 (size before relaxing)
- .debug_str     0x000010ac      0x4f8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x00001062      0x4f8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                                 0xadb (size before relaxing)
- .debug_str     0x000015a4       0xca CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
-                                0x5d2 (size before relaxing)
- .debug_str     0x0000166e       0x50 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x0000155a       0xc3 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+                                0x5c1 (size before relaxing)
+ .debug_str     0x0000161d       0x50 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
                                 0x2f3 (size before relaxing)
- .debug_str     0x000016be       0xe1 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+ .debug_str     0x0000166d       0xe1 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
                                 0x275 (size before relaxing)
- .debug_str     0x0000179f       0x7a CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+ .debug_str     0x0000174e       0x7a CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
                                 0x390 (size before relaxing)
- .debug_str     0x00001819       0x5c CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
+ .debug_str     0x000017c8       0x5c CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj
                                  0xa6 (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -927,21 +921,21 @@ LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .comment       0x00000049       0x4a CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
  .comment       0x00000049       0x4a CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
 
-.debug_frame    0x00000000      0x840
- .debug_frame   0x00000000       0x78 CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
- .debug_frame   0x00000078      0x1ec CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_frame   0x00000264      0x16c CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_frame   0x000003d0       0xd8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_frame   0x000004a8      0x148 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_frame   0x000005f0       0x80 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
- .debug_frame   0x00000670       0x2c CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x0000069c       0xa8 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
- .debug_frame   0x00000744       0x30 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
- .debug_frame   0x00000774       0x2c c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
- .debug_frame   0x000007a0       0x20 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x000007c0       0x20 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-strcmp.o)
- .debug_frame   0x000007e0       0x2c c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000080c       0x34 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+.debug_frame    0x00000000      0x824
+ .debug_frame   0x00000000       0x5c CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
+ .debug_frame   0x0000005c      0x1ec CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_frame   0x00000248      0x16c CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_frame   0x000003b4       0xd8 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_frame   0x0000048c      0x148 CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_frame   0x000005d4       0x80 CMakeFiles/BSP_F410.out.dir/Src/main.c.obj
+ .debug_frame   0x00000654       0x2c CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_frame   0x00000680       0xa8 CMakeFiles/BSP_F410.out.dir/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x00000728       0x30 CMakeFiles/BSP_F410.out.dir/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x00000758       0x2c c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000784       0x20 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x000007a4       0x20 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x000007c4       0x2c c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000007f0       0x34 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
 
 Cross Reference Table
 
@@ -1163,7 +1157,6 @@ __aeabi_ldiv0                                     c:/progra~2/gnuarm~1/102021~1.
                                                   c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
 __aeabi_uldivmod                                  c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
                                                   CMakeFiles/BSP_F410.out.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                                                  CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
 __bss_end__                                       c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 __bss_start__                                     c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 __call_exitprocs                                  c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
@@ -1201,7 +1194,6 @@ _sidata                                           CMakeFiles/BSP_F410.out.dir/st
 _stack_init                                       c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 _start                                            c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 atexit                                            c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
-calculateUartDiv                                  CMakeFiles/BSP_F410.out.dir/Src/usart1.cpp.obj
 exit                                              c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
                                                   c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 g_pfnVectors                                      CMakeFiles/BSP_F410.out.dir/startup_stm32f410rx.s.obj

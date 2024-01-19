@@ -95,8 +95,8 @@ int main(void)
   usartInit();
   uint8_t data[] = "Hello\n";
   uint8_t rxd[256];
-  size_t rx_size = 256;
-  size_t max_tries = 10000000;
+  uint16_t rx_size = 256;
+  // uint32_t max_tries = 10000000;
   uint8_t active = 0;
   led_state state = OFF;
   
@@ -111,7 +111,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
     // this works bc only communicating w single bytes, implement interrupts later
-    usartReadString(rxd, '\n', rx_size, 1); 
+    usartReadString(rxd, '\n', 256u, 100u);
 
     char* in = (char*)rxd;
     if (strcmp(in, "a") == 0) {
@@ -139,7 +139,6 @@ int main(void)
     }
     
     if (ledFlag) {
-
       if (active) {
         if (state == BLINK)
           GPIOA->ODR ^= LD2_Pin;

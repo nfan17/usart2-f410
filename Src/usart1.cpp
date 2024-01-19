@@ -2,25 +2,6 @@
 
 constexpr uint32_t baud = 115200;
 
-uint32_t calculateUartDiv(uint32_t pclk, uint32_t baudrate, uint8_t osrBit) {
-
-    uint32_t temp = static_cast<uint32_t> (
-        static_cast<uint64_t>(pclk) * 25U / (2U * (2U - osrBit) * static_cast<uint64_t>(baudrate))
-    );
-
-    uint32_t mantissa = temp / 100U;
-    uint32_t fraction = (((temp - (mantissa * 100U)) * (8U * (2U - osrBit))) + 50U) / 100U;
-
-    if (osrBit == 0) { // osr = 16
-        fraction &= 0xFFU;
-    }
-    else { // osr = 8
-        fraction = (fraction & 0xF8U) << 1U | (fraction & 0x7U);
-    }
-
-    return (mantissa << 4U) | (fraction);
-}
-
 void usartInit(void) {
 
     // GPIO AF, No pupdr, high speed, AF7 | PA9 TX, PA10 RX
@@ -53,10 +34,6 @@ void usartInit(void) {
      */
     USART1->CR1 &= ~(USART_CR1_OVER8 | USART_CR1_M);
 
-    // uint8_t osr = USART1->CR1 & USART_CR1_OVER8; // over sampling rate
-    // uint32_t pclk = SystemCoreClock >> APBPrescTable[(RCC->CFGR & RCC_CFGR_PPRE1)>> RCC_CFGR_PPRE1_Pos];
-
-    // USART1->BRR |= calculateUartDiv(pclk, baud, osr);
     uint16_t uartdiv = SystemCoreClock / baud;
 
     USART1->BRR = ( ( ( uartdiv / 16 ) << USART_BRR_DIV_Mantissa_Pos ) |
@@ -84,21 +61,22 @@ void usartSend(uint8_t* data, uint16_t len) {
 
 }
 
-void usartReadString(uint8_t * data, uint8_t end_char, uint16_t max_size, uint32_t max_tries) {
+uint8_t usartReadString(uint8_t * data, uint8_t end_char, uint16_t max_size, uint16_t max_tries) {
     USART1->CR1 |= USART_CR1_RE;
 
     uint16_t i, j = 0;
-    while (i < max_size && j++ < max_tries) {
+    while (i < max_size && j++ <= max_tries) {
         if (USART1->SR & USART_SR_RXNE) {
             j = 0;
             data[i] = USART1->DR;
             if (data[i] == end_char) {
                 data[i] = '\0';
-                break;
+                return 1;
             }
             i++;
         }
     }
+    return 0;
 }
 
 void usartSendString(char *data) {
